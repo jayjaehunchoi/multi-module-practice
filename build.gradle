@@ -2,7 +2,14 @@ plugins {
     id 'org.springframework.boot' version '2.6.11'
     id 'io.spring.dependency-management' version '1.0.13.RELEASE'
     id 'java'
-    id 'org.asciidoctor.convert' version '1.5.9.2'
+}
+
+bootJar {
+    enabled = true
+}
+
+jar {
+    enabled = false
 }
 
 allprojects {
@@ -15,11 +22,14 @@ allprojects {
     }
 }
 
+springBoot {
+    mainClass = 'com.huni.PayApiApplication'
+}
+
 subprojects {
     apply plugin: 'org.springframework.boot'
     apply plugin: 'io.spring.dependency-management'
     apply plugin: 'java'
-    apply plugin: 'org.asciidoctor.convert'
 
     configurations {
         compileOnly {
