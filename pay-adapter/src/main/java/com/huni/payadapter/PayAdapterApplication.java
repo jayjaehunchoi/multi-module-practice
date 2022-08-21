@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.huni.paycore"})
+@ComponentScan({"com.huni"})
 public class PayAdapterApplication {
 
     public static void main(String[] args) {

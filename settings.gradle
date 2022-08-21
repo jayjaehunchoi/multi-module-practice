@@ -2,3 +2,4 @@ rootProject.name = 'multi-module-practice'
 
 include 'pay-adapter'
 include 'pay-core'
+include 'pay-common'
