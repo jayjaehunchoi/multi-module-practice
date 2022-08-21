@@ -1,13 +1,13 @@
-package com.huni.payapi.member.acceptance;
+package com.huni.payadapter.member.acceptance;
 
-import static com.huni.payapi.common.acceptance.RequestFixtures.post;
-import static com.huni.payapi.common.member.MemberFixtures.EMAIL;
-import static com.huni.payapi.common.member.MemberFixtures.NAME;
-import static com.huni.payapi.common.member.MemberFixtures.PASSWORD;
+import static com.huni.payadapter.common.acceptance.RequestFixtures.post;
+import static com.huni.payadapter.common.member.MemberFixtures.EMAIL;
+import static com.huni.payadapter.common.member.MemberFixtures.NAME;
+import static com.huni.payadapter.common.member.MemberFixtures.PASSWORD;
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.huni.payapi.common.acceptance.AcceptanceTest;
-import com.huni.payapi.member.adapter.in.dto.MemberSignUpRequest;
+import com.huni.payadapter.common.acceptance.AcceptanceTest;
+import com.huni.payadapter.member.adapter.in.dto.MemberSignUpRequest;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;

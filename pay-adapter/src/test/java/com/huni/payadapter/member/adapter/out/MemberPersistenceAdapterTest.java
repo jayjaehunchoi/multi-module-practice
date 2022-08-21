@@ -1,11 +1,11 @@
-package com.huni.payapi.member.adapter.out;
+package com.huni.payadapter.member.adapter.out;
 
-import static com.huni.payapi.common.member.MemberFixtures.EMAIL;
-import static com.huni.payapi.common.member.MemberFixtures.NAME;
-import static com.huni.payapi.common.member.MemberFixtures.PASSWORD;
+import static com.huni.payadapter.common.member.MemberFixtures.EMAIL;
+import static com.huni.payadapter.common.member.MemberFixtures.NAME;
+import static com.huni.payadapter.common.member.MemberFixtures.PASSWORD;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
-import com.huni.payapi.common.annotations.AdapterOutTest;
+import com.huni.payadapter.common.annotations.AdapterOutTest;
 import com.huni.paycore.member.domain.Member;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

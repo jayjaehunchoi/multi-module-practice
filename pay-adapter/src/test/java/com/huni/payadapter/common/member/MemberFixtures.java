@@ -1,4 +1,4 @@
-package com.huni.payapi.common.member;
+package com.huni.payadapter.common.member;
 
 public class MemberFixtures {
 

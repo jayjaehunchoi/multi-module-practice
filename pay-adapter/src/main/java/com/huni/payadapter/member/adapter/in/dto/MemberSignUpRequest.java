@@ -1,4 +1,4 @@
-package com.huni.payapi.member.adapter.in.dto;
+package com.huni.payadapter.member.adapter.in.dto;
 
 import com.huni.paycore.member.application.port.in.dto.MemberSignUpCommand;
 import lombok.AccessLevel;

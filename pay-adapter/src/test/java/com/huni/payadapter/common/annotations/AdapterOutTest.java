@@ -1,6 +1,6 @@
-package com.huni.payapi.common.annotations;
+package com.huni.payadapter.common.annotations;
 
-import com.huni.payapi.config.JpaConfig;
+import com.huni.payadapter.config.JpaConfig;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

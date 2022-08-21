@@ -1,6 +1,6 @@
-package com.huni.payapi.member.adapter.in;
+package com.huni.payadapter.member.adapter.in;
 
-import com.huni.payapi.member.adapter.in.dto.MemberSignUpRequest;
+import com.huni.payadapter.member.adapter.in.dto.MemberSignUpRequest;
 import com.huni.paycore.member.application.port.in.MemberSignUpUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

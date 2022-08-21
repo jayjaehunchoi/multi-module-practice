@@ -1,4 +1,4 @@
-package com.huni.payapi.common.acceptance;
+package com.huni.payadapter.common.acceptance;
 
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;

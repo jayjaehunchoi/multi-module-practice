@@ -1,10 +1,10 @@
-package com.huni.payapi;
+package com.huni.payadapter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PayApiApplicationTests {
+class PayAdapterApplicationTests {
 
     @Test
     void contextLoads() {

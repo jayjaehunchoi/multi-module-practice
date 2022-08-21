@@ -1,4 +1,4 @@
-package com.huni.payapi.member.adapter.out;
+package com.huni.payadapter.member.adapter.out;
 
 import com.huni.paycore.member.application.port.out.MemberSignUpPort;
 import com.huni.paycore.member.domain.Member;
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-class MemberPersistenceAdapter implements MemberSignUpPort {
+public class MemberPersistenceAdapter implements MemberSignUpPort {
 
     private final MemberRepository memberRepository;
 
