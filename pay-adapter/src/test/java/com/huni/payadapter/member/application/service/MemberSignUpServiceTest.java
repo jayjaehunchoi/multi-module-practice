@@ -1,11 +1,11 @@
-package com.huni.paycore.member.application.service;
+package com.huni.payadapter.member.application.service;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.doNothing;
 
-import com.huni.paycore.member.application.port.in.dto.MemberSignUpCommand;
-import com.huni.paycore.member.application.port.out.MemberSignUpPort;
+import com.huni.payadapter.member.application.port.in.dto.MemberSignUpCommand;
+import com.huni.payadapter.member.application.port.out.MemberSignUpPort;
 import com.huni.paycore.member.domain.Member;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

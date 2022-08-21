@@ -1,6 +1,6 @@
 package com.huni.payadapter.member.adapter.out;
 
-import com.huni.paycore.member.application.port.out.MemberQueryPort;
+import com.huni.payadapter.member.application.port.out.MemberQueryPort;
 import com.huni.paycore.member.domain.Member;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;

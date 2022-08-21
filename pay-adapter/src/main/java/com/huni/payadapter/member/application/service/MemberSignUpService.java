@@ -1,8 +1,8 @@
-package com.huni.paycore.member.application.service;
+package com.huni.payadapter.member.application.service;
 
-import com.huni.paycore.member.application.port.in.MemberSignUpUseCase;
-import com.huni.paycore.member.application.port.in.dto.MemberSignUpCommand;
-import com.huni.paycore.member.application.port.out.MemberSignUpPort;
+import com.huni.payadapter.member.application.port.in.MemberSignUpUseCase;
+import com.huni.payadapter.member.application.port.in.dto.MemberSignUpCommand;
+import com.huni.payadapter.member.application.port.out.MemberSignUpPort;
 import com.huni.paycore.member.domain.Member;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

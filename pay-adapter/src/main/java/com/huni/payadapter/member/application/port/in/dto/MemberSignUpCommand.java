@@ -1,4 +1,4 @@
-package com.huni.paycore.member.application.port.in.dto;
+package com.huni.payadapter.member.application.port.in.dto;
 
 import com.huni.paycore.member.domain.Member;
 import lombok.Getter;

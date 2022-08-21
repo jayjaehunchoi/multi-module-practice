@@ -1,7 +1,7 @@
 package com.huni.payadapter.member.adapter.in;
 
 import com.huni.payadapter.member.adapter.in.dto.MemberSignUpRequest;
-import com.huni.paycore.member.application.port.in.MemberSignUpUseCase;
+import com.huni.payadapter.member.application.port.in.MemberSignUpUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,6 +1,6 @@
 package com.huni.payadapter.member.adapter.in.dto;
 
-import com.huni.paycore.member.application.port.in.dto.MemberSignUpCommand;
+import com.huni.payadapter.member.application.port.in.dto.MemberSignUpCommand;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
